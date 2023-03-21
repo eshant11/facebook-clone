@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>facebook</title>
+   <link rel="stylesheet" href="style.css">
+</head>
+
+<body style="direction: ltr;">
+   <div class="container">
+      <div id="heading">
+         <h1>facebook</h1>
+      </div>
+      <div class="c1">
+         <div class="container1 mb-3">
+            <h2>Create a new Account</h2>
+            <h3>It's quick and easy.</h3>
+
+            <div class="container1 mb-3">
+               <input type="text" aria-label="First name" id="firstName" class="form-control" placeholder="First Name">
+               <input type="text" aria-label="Last name" id="lastName" class="form-control" placeholder="Last Name"
+                  style="margin-left: 5px">
+            </div>
+            <br>
+            <div class="container1 mb-3">
+               <input type="text" class="form-control" id="username" placeholder="Mobile Number or Email Address"
+                  aria-label="Recipient's username" size="45" pattern="^[A-Za-z][A-Za-z0-9_]{7,29}$"
+                  title="Must contain at least one number  and at least 5 or more characters" required>
+            </div>
+            <br>
+            <div class="container1 mb-3">
+               <input type="password" class="form-control" id="floatingPassword" placeholder="Password"
+                  pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}"
+                  title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters"
+                  required>
+               <input type="checkbox" onclick="showPassword()">Show Password
+            </div>
+            <!-- <div id="message">
+               <h3>Password must contain the following:</h3>
+               <p id="letter" class="invalid">A <b>lowercase</b> letter</p>
+               <p id="capital" class="invalid">A <b>capital (uppercase)</b> letter</p>
+               <p id="number" class="invalid">A <b>number</b></p>
+               <p id="length" class="invalid">Minimum <b>8 characters</b></p>
+             </div> -->
+            <br>
+            <div class="form-floating">
+               <div class="age">
+                  <span style="display:grid; margin-bottom: 10px;font-size: small;"><label for="Date">Date of
+                        birth</label></span>
+
+                  <select class="form-select" id="month" aria-label="Default select example">
+                     <option value="1">1</option>
+                     <option value="2">2</option>
+                     <option value="3">3</option>
+                     <option value="4">4</option>
+                     <option value="5">5</option>
+                     <option value="6">6</option>
+                     <option value="7">7</option>
+                     <option value="8">8</option>
+                     <option value="9">9</option>
+                     <option value="9">10</option>
+                     <option value="10">11</option>
+                     <option selected>12</option>
+                  </select>
+                  <select class="form-select" id="date" aria-label="Default select example">
+                     <option value="1">1</option>
+                     <option value="2">2</option>
+                     <option value="3">3</option>
+                     <option value="4">4</option>
+                     <option value="5">5</option>
+                     <option value="6">6</option>
+                     <option value="7">7</option>
+                     <option value="8">8</option>
+                     <option value="9">9</option>
+                     <option value="10">10</option>
+                     <option value="11">11</option>
+                     <option value="12">12</option>
+                     <option value="13">13</option>
+                     <option value="14">14</option>
+                     <option value="15">15</option>
+                     <option value="16">16</option>
+                     <option value="17">17</option>
+                     <option value="18">18</option>
+                     <option value="19">19</option>
+                     <option value="20">20</option>
+                     <option value="21">21</option>
+                     <option value="22">22</option>
+                     <option value="23">23</option>
+                     <option value="24">24</option>
+                     <option value="25">25</option>
+                     <option value="26">26</option>
+                     <option value="27">27</option>
+                     <option value="28">28</option>
+                     <option value="29">29</option>
+                     <option value="30">30</option>
+                     <option value="31">31</option>
+                  </select>
+                  <input type="text" id="year" placeholder="year">
+               </div>
+            </div>
+            <br>
+            <span class="form-check" id="gender" style="position:relative;display: inline-flex;">
+               <span class="male">
+                  <label class="form-check-label" for="male" style="margin-right: 20px;">Male</label>
+                  <input class="form-check-input" type="radio" name="gender" value="male" id="male" checked>
+               </span>
+               <span class="female">
+                  <label class="form-check-label" for="female">Female </label>
+                  <input class="form-check-input" type="radio" name="gender" value="female" id="female">
+               </span>
+            </span>
+            <br>
+            <br>
+            <div class="btn">
+               <button class="btn-btn" id="createAcc">Create account</button>
+            </div>
+         </div>
+      </div>
+   </div>
+
+</body>
+<script src="index.js"></script>
+
+</html>

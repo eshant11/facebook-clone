@@ -1,0 +1,91 @@
+div.c1 {
+      width: fit-content;
+      height:100%;
+      padding-left: 5em;
+      padding-right: 5em;
+      padding-top: 25px;
+      border: 1px white;
+      border-radius: 5px;
+      background-color: white;
+      text-align: left;
+      font-family: fantasy;
+      margin: 0vh 5vh;
+}
+.container{
+      width: 100%;
+      align-items: center;
+      display: flex;
+      justify-content:center;
+flex-direction: column; 
+flex-wrap: wrap;     
+}
+
+h1 {
+      font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+      font-size: 62px;
+      color: #1b4bb3;
+      text-align: center;
+      font-weight: 900;
+}
+
+h3 {
+      font-weight: lighter;
+      font-style: normal;
+      font-size: medium;
+
+}
+
+body {
+      background-color: whitesmoke;
+}
+
+input {
+      border-radius: 5px;
+      box-shadow: cornflowerblue;
+      padding: 8px 0px;
+      text-align: left;
+      display:inline-block;
+}
+
+button {
+      border-radius: 7px;
+      box-shadow: cornflowerblue;
+
+}
+button:hover{
+      opacity: 0.5;
+}
+
+label {
+      font-weight: 100;
+}
+
+select{
+      height: 35px;
+      width: 80px;
+      display:inline-block;
+}
+button {
+      background-color: green;
+      font-size: xx-large;
+      box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+h2 {
+      font-size: 5vh;
+}
+.female{
+      border:1px solid lightgrey;
+      margin-left: 20px;
+      padding: 0px 10px;
+      border-radius: 4px;
+
+      display:inline-block;
+}
+.male{
+      border:1px solid lightgrey;
+      border-radius: 4px;
+margin-right: 10px;
+padding: 0px 10px;
+display:inline-block;
+}
